@@ -1,7 +1,111 @@
 /* Цвет основного текста #757575 */
 /* Цвет названий #212121 */
+/* Цвет лого #000000 */
 /* Белый #ffffff */
-/* Вторичный цвет бэкграунда #F5F4FA */
+/* Вторичный цвет фона #F5F4FA */
 /* Цвет футера #2F303A */
-/* Вторичный белый rgba(255, 255, 255, 0.6); */
-/* Акцент 2196F3 */
+/* Вторичный белый в футере rgba(255, 255, 255, 0.6); */
+/* Акцент #2196F3 */
+
+body {
+    background-color: #ffffff;
+    color: #757575;
+}
+.list {
+    list-style: none;
+}
+.logo-web {
+    color: #2196F3;
+}
+.logo-studio {
+    color: #000000;
+}
+.site-nav .link {
+    color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: #2196F3;
+}
+.contacts .link{
+    color: #757575;
+}
+.contacts .link:hover,
+.contacts .link:focus {
+    color: #2196F3;
+}
+.start {
+    background-color: #2F303A;
+}
+.start-title {
+    color: #ffffff;
+}
+.start-button {
+    color: #ffffff;
+    background-color: #2196F3;
+}
+.section-title {
+    color: #212121;
+}
+.features .title {
+    color: #212121;
+}
+.features .descr {
+    color: #757575;
+}
+.people .title {
+    color: #212121;
+}
+.people .descr {
+    color: #757575;
+}
+.staff {
+    background-color: #F5F4FA;
+}
+footer {
+    background-color: #2F303A;
+}
+.logo-footer {
+    color: #ffffff;
+}
+.adress-footer {
+    color: #ffffff;
+}
+.adress-footer:hover,
+.adress-footer:focus {
+    color: #2196F3;
+}
+.adress-contact {
+    color: rgba(255, 255, 255, 0.6);
+}
+.adress-contact:hover,
+.adress-contact:focus {
+    color: #2196F3;
+}
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+.filter-button {
+    background-color: #F5F4FA;
+    color: #212121;
+}
+.filter-button:hover,
+.filter-button:focus {
+    background-color: #2196F3;
+    color: #ffffff;
+}
+.card-title {
+    color: #212121;
+}
+.card-descr {
+    color: #757575;
+}
