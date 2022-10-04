@@ -15,6 +15,9 @@ body {
 .list {
     list-style: none;
 }
+.link {
+    text-decoration: none;
+}
 .logo-web {
     color: #2196F3;
     font-family: Raleway, sans-serif;
@@ -37,6 +40,7 @@ body {
     font-size: 14px;
     line-height: 1.1;
     letter-spacing: 0.02em;
+
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -132,6 +136,10 @@ footer {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+}
+.adress-footer:hover,
+.adress-footer:focus {
+    color: #2196F3;
 }
 .adress-contact {
     color: rgba(255, 255, 255, 0.6);
